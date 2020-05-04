@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+}
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 320px);
+  grid-auto-rows: 180px;
+  grid-gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin: 20px auto;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 1.2px;
+  color: #141416;
+}
+.item {
+  cursor: pointer;
+}
